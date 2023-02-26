@@ -5,32 +5,38 @@ function FooterSection() {
     <div>
       <footer id="footer">
         <div className="container">
-          <h3>Brandon Johnson</h3>
+          <h3>CHRIS GURUNG</h3>
           <p>
             Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
             eligendi fuga maxime saepe commodi placeat.
           </p>
           <div className="social-links">
-            <a href="#" className="twitter">
+            {/* <a href="#" className="twitter">
               <i className="bx bxl-twitter"></i>
             </a>
             <a href="#" className="facebook">
               <i className="bx bxl-facebook"></i>
-            </a>
-            <a href="#" className="instagram">
+            </a> */}
+            <a
+              href="https://www.instagram.com/chris_tamu/"
+              className="instagram"
+            >
               <i className="bx bxl-instagram"></i>
             </a>
-            <a href="#" className="google-plus">
-              <i className="bx bxl-skype"></i>
+            <a href="https://github.com/Chris-Grg" className="github">
+              <i class="bi bi-github"></i>
             </a>
-            <a href="#" className="linkedin">
+            <a
+              href="https://www.linkedin.com/in/chris-gurung-98748b214/"
+              className="linkedin"
+            >
               <i className="bx bxl-linkedin"></i>
             </a>
           </div>
           <div className="copyright">
             &copy; Copyright{" "}
             <strong>
-              <span>MyResume</span>
+              <span>My Resume</span>
             </strong>
             . All Rights Reserved
           </div>
@@ -43,6 +49,12 @@ function FooterSection() {
           </div>
         </div>
       </footer>
+      <a
+        href="#"
+        className="back-to-top d-flex align-items-center justify-content-center"
+      >
+        <i class="bi bi-arrow-up-circle-fill"></i>
+      </a>
     </div>
   );
 }

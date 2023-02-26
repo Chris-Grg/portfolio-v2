@@ -1,4 +1,5 @@
 import React from "react";
+import TypewriterComponent from "typewriter-effect";
 
 function HeroSection() {
   return (
@@ -45,26 +46,34 @@ function HeroSection() {
         <div className="container" data-aos="zoom-in" data-aos-delay="100">
           <h1>Chris Gurung</h1>
           <p>
-            I'm{" "}
+            I'm
+            {/* <TypewriterComponent /> */}
             <span
               className="typed"
-              data-typed-items="Designer, Developer, Freelancer, Photographer"
+              // data-typed-items="Designer, Developer, Freelancer, Photographer"
             ></span>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
           </p>
           <div className="social-links">
-            <a href="#" className="twitter">
+            {/* <a href="#" className="twitter">
               <i className="bx bxl-twitter"></i>
-            </a>
-            <a href="#" className="facebook">
+            </a> */}
+            {/* <a href="#" className="facebook">
               <i className="bx bxl-facebook"></i>
-            </a>
-            <a href="#" className="instagram">
+            </a> */}
+            <a
+              href="https://www.instagram.com/chris_tamu/"
+              className="instagram"
+            >
               <i className="bx bxl-instagram"></i>
             </a>
-            <a href="#" className="google-plus">
-              <i className="bx bxl-skype"></i>
+            <a href="https://github.com/Chris-Grg" className="github">
+              <i class="bi bi-github"></i>
             </a>
-            <a href="#" className="linkedin">
+            <a
+              href="https://www.linkedin.com/in/chris-gurung-98748b214/"
+              className="linkedin"
+            >
               <i className="bx bxl-linkedin"></i>
             </a>
           </div>

@@ -26,8 +26,8 @@ function PortfolioSection() {
                   All
                 </li>
                 <li data-filter=".filter-app">App</li>
-                <li data-filter=".filter-card">Card</li>
-                <li data-filter=".filter-web">Web</li>
+                <li data-filter=".filter-card">JS</li>
+                <li data-filter=".filter-web">MERN</li>
               </ul>
             </div>
           </div>
@@ -37,19 +37,19 @@ function PortfolioSection() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+            {/* <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
+                  src="assets/img/portfolio/ecommerce-website.png"
                   className="img-fluid"
                   alt=""
                 />
                 <div className="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>App</p>
+                  <h4>Latest Work</h4>
+                  <p>e-commerce Website</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-1.jpg"
+                      href="https://github.com/Chris-Grg/e-commerce"
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="App 1"
@@ -67,21 +67,21 @@ function PortfolioSection() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-2.jpg"
+                  src="assets/img/portfolio/ecommerce-website.png"
                   className="img-fluid"
                   alt=""
                 />
                 <div className="portfolio-info">
-                  <h4>Web 3</h4>
+                  <h4>ecommerce website</h4>
                   <p>Web</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-2.jpg"
+                      href="https://github.com/Chris-Grg/e-commerce"
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Web 3"
@@ -101,14 +101,14 @@ function PortfolioSection() {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+            {/* <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
                 <img
                   src="assets/img/portfolio/portfolio-3.jpg"
                   className="img-fluid"
                   alt=""
-                />
-                <div className="portfolio-info">
+                /> */}
+            {/* <div className="portfolio-info">
                   <h4>App 2</h4>
                   <p>App</p>
                   <div className="portfolio-links">
@@ -291,21 +291,21 @@ function PortfolioSection() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-card">
               <div className="portfolio-wrap">
                 <img
-                  src="assets/img/portfolio/portfolio-9.jpg"
+                  src="assets/img/portfolio/Newsletter.png"
                   className="img-fluid"
                   alt=""
                 />
                 <div className="portfolio-info">
-                  <h4>Web 3</h4>
+                  <h4>Newsletter</h4>
                   <p>Web</p>
                   <div className="portfolio-links">
                     <a
-                      href="assets/img/portfolio/portfolio-9.jpg"
+                      href="https://github.com/Chris-Grg/Newsletter-signup"
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Web 3"
